@@ -1,0 +1,347 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background-color:  #111;
+    color: #ffc107;
+
+}
+body{
+    color: #ffc107;
+    background-color: #111;
+}
+/* 10px=====1rem */
+.header-image{
+    /* max-width: 100%; */
+    width: 100%;
+    height: 20rem;
+}
+.header{
+    background-color: #ffc107;
+}
+.profile img{
+    border-radius: 50%;
+    border: 10px solid #ffc107;
+    
+   
+  }
+  .profile{
+    height: 20rem;
+    background-color: #111;
+    width: 20rem;
+    align-items: left;
+    margin-top: -5rem;
+    color: #ffc107;
+
+  }
+  .name{
+      font-size: 5rem;
+      background-color: #111;
+      color: #ffc107;
+      margin: 0;
+    
+      font-family: 'Russo One', sans-serif;
+      margin-left: 40rem;
+      margin-bottom: 0rem;
+  }
+  .name-1{
+      font-size: 3rem;
+      color: #ededed;
+  }
+  #about{
+      background-color: #ffc107;
+      color: #111;
+      font-size: 2rem;
+      padding-right: 2rem;
+      padding-left: 2rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      font-family: 'Russo One', sans-serif;
+      border-radius: 10%;
+      border-radius: 30px;
+      
+      
+     
+  }
+
+  #about:hover{
+   transform: translateY(-1rem) scale(1);
+   
+   box-shadow: 3px 3px 10px #ffc1079c;
+
+  }
+
+
+  .about{
+      background-color: #111;
+      margin-top: -1rem;
+      padding: 2rem;
+      margin-left: 5rem;
+}
+.hr-line{
+    background-color: #ededed;
+   padding: 0.1rem;
+   margin-top: 5rem;
+}
+
+.aboutme{
+    background-color: #111;
+   
+    
+}
+.aboutme-heading{
+    font-size: 5rem;
+    color: #ededed;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    padding-top: 1rem;
+    
+}
+.personal-heading{
+    align-items: center;
+    color: #ededed;
+    font-size: 2.5rem;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+    padding: 5rem;
+}
+.personal-title{
+    font-size: 2rem;
+    color: #ffc107;
+    font-family: 'Russo One', sans-serif;
+    padding-top: 1rem;
+    
+}
+.cv{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.skills{
+    background-color: #111;
+    margin-top: -1rem;
+    padding-top: 2.1rem;
+}
+.skill-heading{
+    font-size: 5rem;
+    color: #ededed;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    padding-top: 1rem;
+    
+}
+.education{
+    background-color: #111;
+    margin-top: -1rem;
+    padding-top: 2.1rem;
+}
+.education-heading{
+    font-size: 5rem;
+    color: #ededed;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    padding-top: 1rem;
+    
+}
+.education-detail{
+    font-size: 2.8rem;
+    font-family: 'Russo One', sans-serif;
+    padding-top: 2rem;
+    
+    color: rgb(218, 165, 32);
+}
+.education-content{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+
+.contact{
+    
+    background: #111;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-container{
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin-left: 3rem;
+    height: 500px; 
+    background-color: #111;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10rem;
+    font-family: 'Russo One', sans-serif;
+    
+   
+}
+.formBox{
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+     align-items: center;
+}
+
+.formBox form{
+    position: relative;
+    width: 100%;
+    padding:3rem;
+}
+
+.inputBox{
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.formBox form .inputBox:last-child{
+    margin-bottom: 0px;
+}
+
+.formBox form .inputBox input,
+.formBox form .inputBox textarea{
+    
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #ffc107;
+    padding-bottom: 10px;
+    font-size:16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-bottom: 2px solid #ededed;
+   
+}
+.formBox form .inputBox textarea{
+    height: 10rem;
+}
+.formBox form .inputBox input[type="submit"] {
+    background: #ffc107;
+    padding: 8px 20px;
+    width: 140px;
+
+}
+
+
+
+.formBox form .inputBox span{
+    position: absolute;
+    left: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    display: inline-block;
+    pointer-events: none;
+    letter-spacing: 1px;
+    color: #ededed;
+    transition: all 0.2s;
+}
+
+.formBox form .inputBox input:focus~span,
+.formBox form .inputBox textarea:focus ~span,
+.formBox form .inputBox input:valid ~span,
+.formBox form .inputBox textarea:valid ~span{
+    transform: translateY(-20px);
+    color:#ffc107;
+    font-size: 1.4rem;
+}
+
+.formBox form .inputBox input:focus,
+.formBox form .inputBox textarea:focus ,
+.formBox form .inputBox input:valid ,
+.formBox form .inputBox textarea:valid {
+    border-bottom-color: #ffc107;
+}
+.progress-title{
+    align-items: left;
+    color: #ededed;
+    font-size: 2rem;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 2px;
+   
+
+}
+#footer{
+    background-color: #ffc107;
+    height: 60px;
+   margin-top: -4rem;
+    bottom: 0px;
+    left: 0px;
+    line-height: 50px;
+    color: #111;
+    text-align: center;
+    width: 100%;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5rem;
+
+  }
+
+  .project-img img{
+    filter: blur(1px);
+  -webkit-filter: blur(1px);
+    
+    border: 2px solid #ffc107;
+
+  }
+  .project-img img:hover{
+    
+    filter: blur(0px);
+  -webkit-filter: blur(0px);
+    
+
+  }
+
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: #111;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #ededed;
+  }
+  
+  .facebook {
+    background:#ffc107;
+    color: white;
+  }
+  
+  .twitter {
+    background: #ffc107;
+    color: white;
+  }
+  
+  .google {
+    background: #ffc107;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #ffc107;
+    color: white;
+  }
+  
+  .youtube {
+    background: #ffc107;
+    color: white#ffc107
